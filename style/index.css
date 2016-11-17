@@ -1,0 +1,54 @@
+
+.weui_grid {
+	width: 25%;
+}
+
+.weui_grid:nth-child(3n):before {
+	border-right-width: 1px;
+}
+
+.weui_grid:nth-child(4n):before {
+	border-right-width: 0;
+}
+
+.weui_panel_bd .weui_grid {
+	width: 50%;
+}
+
+.weui_panel_bd .weui_grid:nth-child(3n):before {
+	border-right-width: 1px;
+}
+
+.weui_panel_bd .weui_grid:nth-child(4n):before {
+	border-right-width: 0;
+}
+
+.weui_grid_img {
+	margin: 0 auto;
+}
+
+.weui_grid_img img {
+	width: 100%;
+}
+
+.weui-navigator-list li {
+	font-size: 15px;
+}
+
+.hd ul li,
+.bd ul li {
+	list-style-type: none;
+}
+
+.hd ul li {
+	padding: 0 10px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.tabBox .hd ul .on {
+	border-bottom-color: #04BE02;
+	color: #04be02;
+}
+#newmerchant{
+	margin-bottom: 60px;
+}

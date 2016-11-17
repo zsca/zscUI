@@ -1,0 +1,196 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>用户中心-资料修改</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<link rel="stylesheet" href="../css/weui.css" />
+		<link rel="stylesheet" href="../css/weui2.css" />
+		<link rel="stylesheet" href="../css/example.css" />
+		<link rel="stylesheet" href="../css/user.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+	</head>
+
+	<body ontouchstart>
+		<!--头部-->
+		<div class="weui-header xiangmu_top f-black bg_white">
+			<div class="weui-header-left">
+				<a class="icon icon-109 f-black" href="../user.html"></a>
+			</div>
+			<h1 class="weui-title f-black f10rem">资料修改</h1>
+
+		</div>
+		<div class="xiangmu_top_qingchu">
+
+		</div>
+		<!--内容-->
+		<div>
+			<form action="#" method="get" id="user_home_useralter">
+
+				<!--头像-->
+
+				<div class="weui_cell">
+					<div class="weui_cell_bd weui_cell_primary">
+						<div class="weui_uploader">
+							<div class="weui_uploader_hd weui_cell">
+								<div class="weui_cell_bd weui_cell_primary f10rem">头像图片上传</div>
+								<div class="weui_cell_ft">0/2</div>
+							</div>
+							<div class="weui_uploader_bd">
+								<ul class="weui_uploader_files">
+									<li class="weui_uploader_file" style="background-image:url(http://shp.qpic.cn/weixinsrc_pic/pScBR7sbqjOBJomcuvVJ6iacVrbMJaoJZkFUIq4nzQZUIqzTKziam7ibg/)"></li>
+
+								</ul>
+								<div class="weui_uploader_input_wrp">
+									<input class="weui_uploader_input" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" multiple />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--昵称-->
+
+				<div class="weui_cell weui_cell_select weui_select_before">
+					<div class="weui_cell_hd">
+						<select class="weui_select f6rem" name="select2" disabled="disabled">
+							<option value="1" read>昵称</option>
+						</select>
+					</div>
+					<div class="weui_cell_bd weui_cell_primary">
+						<input class="weui_input" type="text" pattern="[0-9]*" placeholder="请输入昵称，只可改动一次" />
+					</div>
+				</div>
+
+				<!--电话-->
+
+				<div class="weui_cell weui_cell_select weui_select_before">
+					<div class="weui_cell_hd">
+						<select class="weui_select  f6rem" name="select2">
+							<option value="1">+86</option>
+							<option value="2">+80</option>
+							<option value="3">+84</option>
+							<option value="4">+87</option>
+						</select>
+					</div>
+					<div class="weui_cell_bd weui_cell_primary">
+						<input class="weui_input" type="text" pattern="[0-9]*{11}" placeholder="联系电话" />
+					</div>
+					<div class="weui_cell_ft">
+					</div>
+				</div>
+
+				<!--QQ或email-->
+
+				<div class="weui_cell weui_cell_select weui_select_before">
+					<div class="weui_cell_hd">
+						<select class="weui_select f6rem" name="select2">
+							<option value="">QQ</option>
+							<option value="">Email</option>
+						</select>
+					</div>
+					<div class="weui_cell_bd weui_cell_primary">
+						<input class="weui_input" type="text" pattern="[0-9]*" placeholder="请输入邮箱或者QQ" />
+					</div>
+				</div>
+
+				<!--单项选折-->
+
+				<div class="weui_cells_title f6rem">身份性质</div>
+				<div class="weui_cells weui_cells_checkbox f6rem" style="margin-bottom: 0;">
+
+					<label class="weui_cell weui_check_label" for="s11">
+		                <div class="weui_cell_hd">
+		                    <input type="radio" class="weui_check" name="checkbox1" id="s11" checked="checked">
+		                    <i class="weui_icon_checked"></i>
+		                </div>
+		                <div class="weui_cell_bd weui_cell_primary">
+		                    <p>个人</p>
+		                </div>
+           			</label>
+					<label class="weui_cell weui_check_label" for="s12">
+		                <div class="weui_cell_hd">
+		                    <input type="radio" name="checkbox1" class="weui_check" id="s12">
+		                    <i class="weui_icon_checked"></i>
+		                </div>
+		                <div class="weui_cell_bd weui_cell_primary">
+		                    <p>零售商</p>
+		                </div>
+           			</label>
+					<label class="weui_cell weui_check_label" for="s13">
+		                <div class="weui_cell_hd">
+		                    <input type="radio" name="checkbox1" class="weui_check" id="s13">
+		                    <i class="weui_icon_checked"></i>
+		                </div>
+		                <div class="weui_cell_bd weui_cell_primary">
+		                    <p>供应商</p>
+		                </div>
+            		</label>
+				</div>
+
+				<!--提交按钮-->
+				<div class="weui_btn_area">
+					<a class="weui_btn weui_btn_primary" id="showTooltips">保存</a>
+					<a class="weui_btn weui_btn_default" href="../user.html">取消</a>
+				</div>
+
+				<!--弹出框-->
+
+				<div class="weui_dialog_confirm">
+					<div class="weui_mask"></div>
+					<div class="weui_dialog">
+						<div class="weui_dialog_hd"><strong class="weui_dialog_title">确认修改</strong></div>
+						<div class="weui_dialog_bd">部分内容修改以后，将不能再次被修改</div>
+						<div class="weui_dialog_ft">
+							<a href="#" class="weui_btn_dialog default">取消</a>
+							<a href="" class="weui_btn_dialog primary">确定</a>
+						</div>
+					</div>
+				</div>
+				<div id="toast">
+					<div class="weui_mask_transparent"></div>
+					<div class="weui_toast">
+						<i class="weui_icon_toast"></i>
+						<p class="weui_toast_content">保存成功</p>
+					</div>
+				</div>
+
+			</form>
+
+		</div>
+		<!--预留底部信息-->
+		<div class="obligate">
+			<!--预留底部信息-->
+			<!--预留底部信息-->
+			<!--预留底部信息-->
+		</div>
+		<!--底部导航栏-->
+		<div class="weui_tab tab-bottom zindex">
+			<div class="weui_tabbar ">
+				<a href="../index.html" class="weui_tabbar_item ">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black">&#xe602;</i>
+					</div>
+					<p class="weui_tabbar_label">首页</p>
+				</a>
+				<a href="../indexLifeHome.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black ">&#xe607;</i>
+					</div>
+					<p class="weui_tabbar_label" style="padding-left: 3%;">买家秀</p>
+				</a>
+				<a href="../user.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black ">&#xe603;</i>
+					</div>
+					<p class="weui_tabbar_label">用户</p>
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="../js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="../js/user.js"></script>
+
+	</body>
+
+</html>

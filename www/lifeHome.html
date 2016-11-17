@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>买家装修详情</title>
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/weui.css" />
+		<link rel="stylesheet" href="css/weui2.css" />
+		<link rel="stylesheet" href="css/lifeHome.css" />
+		<link rel="stylesheet" href="css/calendar.css" />
+		<style type="text/css">
+			#allmap {
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+				margin: 0;
+				font-family: "微软雅黑";
+			}
+		</style>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=您的密钥"></script>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<div>
+				<img src="images/1 (6).jpg" />
+				<div>
+					<img src="images/icon_nav_icons.png" />
+					<p><b>笑那悄然而逝 飞花万盏</b>
+						<br />
+					</p>
+					<span>最好是不相见，如此便可不至相恋。  最好是不相知，如此便可不用相思。 </span>
+				</div>
+			</div>
+			<!--选项卡-->
+			<div class="row tcenter show">
+				<div class="col-xs-4 col-sm-4 clickAdd">
+					家详情
+				</div>
+				<div class="col-xs-4 col-sm-4">
+					产品清单
+				</div>
+				<div class="col-xs-4 col-sm-4">
+					开放时间
+				</div>
+			</div>
+			<!--内容-->
+			<div class="row clickShow">
+				<!--选项卡一-->
+				<div class="col-xs-12 col-sm-12">
+					<!--生活家信息-->
+					<div class="col-xs-12 col-sm-12 bg_white">
+						<p class="tcenter">生活家信息</p>
+						<ul class="col-xs-4 col-sm-4 ">
+							<li>职业</li>
+							<li>年龄</li>
+							<li>关于我</li>
+						</ul>
+						<ul class="col-xs-8 col-sm-8 ">
+							<li>律师</li>
+							<li>90后</li>
+							<li>极限运动爱好者</li>
+						</ul>
+					</div>
+					<!--生活家装修信息-->
+					<div class="col-xs-12 col-sm-12 bg_white padding">
+						<!--百度地图-->
+						<div id="map">
+							<div style="width: 100%; height: 200px;" id="allmap"></div>
+						</div>
+
+						<ul class="col-xs-4 col-sm-4 ">
+							<li>房子位置</li>
+							<li>房型</li>
+							<li>装修时长</li>
+							<li>入住时间</li>
+							<li>家具总额</li>
+						</ul>
+						<ul class="col-xs-8 col-sm-8 ">
+							<li>北京-望城</li>
+							<li>三室一厅</li>
+							<li>精装修</li>
+							<li>2015年9月</li>
+							<li>85645元</li>
+						</ul>
+					</div>
+					<!--生活家图文-->
+					<div class="col-xs-12 col-sm-12  padding">
+						<img src="images/3 (9).jpg" />
+						<p>最喜欢的时光就是背靠沙发，捧着一本书在阳台处享受着恬静的时光。家人围坐在深咖色的茶几周围，皮布的混搭显得俏皮可爱，背景墙与照片交相辉映，端庄舒雅，阵阵微风吹过，又是一番美丽的景象。</p>
+						<img src="images/3 (2).jpg" />
+						<img src="images/3 (3).jpg" />
+						<p>很喜欢这个角落里的小抽屉，总觉得可以藏进很多期待。</p>
+						<img src="images/3 (1).jpg" />
+						<p>主人位，既要独特立体，又要悠然自得，慵懒闲适。</p>
+						<img src="images/3 (4).jpg" />
+						<img src="images/3 (10).jpg" />
+						<p>主卫的神色皮沙发，用亮色抱枕来搭配，提升整体的活跃感。</p>
+						<img src="images/3 (11).jpg" />
+						<p>最爱蓝白格，清爽又温馨。</p>
+						<img src="images/3 (12).jpg" />
+						<img src="images/3 (13).jpg" />
+						<img src="images/3 (16).jpg" /> 方正中见平和，稳重中有内涵。
+						<img src="images/3 (14).jpg" />
+						<img src="images/3 (15).jpg" />
+						<img src="images/3 (17).jpg" />
+						<p>神色的沉稳，和亮色的结合，错落而统一，让人食欲大振。</p>
+						<img src="images/3 (18).jpg" />
+					</div>
+					<!--生活家评分-->
+					<div class="col-xs-12 col-sm-12  padding bg_white">
+						<h4>体验评分:</h4>
+						<hr />
+						<div class="col-xs-12 col-sm-12 ">
+							<div class="col-xs-2 col-sm-2  padding ">
+								<img src="images/icon_nav_button.png" />
+							</div>
+							<div class="col-xs-10 col-sm-10  padding ">
+								<b>珠珠</b>
+								<span class="tright right">2015-11-12</span><br />
+								<p class="indent">第一次尝试这样的销售模式，感觉还不错。家俱摆在真正的房间里和摆在卖场里感觉还是很不一样的，空间感觉更加直观，这种模式值得推广。平台的服务人员讲解比较到位，对我们提出的问题进行了细致合理的回答，服务态度一流。家俱本身由于品牌和系列的不同，细节处理上也不尽相同，总体上看，家俱性价比比较高，有些单品还是挺值得入手的。个人感觉，如果能再布置两个奢华度更高，家俱规格更大的样板间，如美婷的高端系列，可能更适合改善型住房业主的需求。我拭目以待！</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 ">
+							<div class="col-xs-2 col-sm-2  padding ">
+								<img src="images/icon_nav_article.png" />
+							</div>
+							<div class="col-xs-10 col-sm-10  padding ">
+								<b>香香</b><span class="tright right">2015-11-12</span><br />
+								<p class="indent">第一次尝试这样的销售模式，感觉还不错。家俱摆在真正的房间里和摆在卖场里感觉还是很不一样的，空间感觉更加直观，这种模式值得推广。平台的服务人员讲解比较到位，对我们提出的问题进行了细致合理的回答，服务态度一流。家俱本身由于品牌和系列的不同，细节处理上也不尽相同，总体上看，家俱性价比比较高，有些单品还是挺值得入手的。个人感觉，如果能再布置两个奢华度更高，家俱规格更大的样板间，如美婷的高端系列，可能更适合改善型住房业主的需求。我拭目以待！</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 ">
+							<div class="col-xs-2 col-sm-2  padding ">
+								<img src="images/icon_nav_cell.png" />
+							</div>
+							<div class="col-xs-10 col-sm-10  padding ">
+								<b>啊珠</b><span class="tright right">2015-11-12</span><br />
+								<p class="indent">第一次尝试这样的销售模式，感觉还不错。家俱摆在真正的房间里和摆在卖场里感觉还是很不一样的，空间感觉更加直观，这种模式值得推广。平台的服务人员讲解比较到位，对我们提出的问题进行了细致合理的回答，服务态度一流。家俱本身由于品牌和系列的不同，细节处理上也不尽相同，总体上看，家俱性价比比较高，有些单品还是挺值得入手的。个人感觉，如果能再布置两个奢华度更高，家俱规格更大的样板间，如美婷的高端系列，可能更适合改善型住房业主的需求。我拭目以待！</p>
+							</div>
+						</div>
+						<div class="col-xs-12 col-sm-12 ">
+							<div class="col-xs-2 col-sm-2  padding ">
+								<img src="images/icon_nav_button.png" />
+							</div>
+							<div class="col-xs-10 col-sm-10  padding ">
+								<b>珠珠</b><span class="tright right">2015-11-12</span><br />
+								<p class="indent">第一次尝试这样的销售模式，感觉还不错。家俱摆在真正的房间里和摆在卖场里感觉还是很不一样的，空间感觉更加直观，这种模式值得推广。平台的服务人员讲解比较到位，对我们提出的问题进行了细致合理的回答，服务态度一流。家俱本身由于品牌和系列的不同，细节处理上也不尽相同，总体上看，家俱性价比比较高，有些单品还是挺值得入手的。个人感觉，如果能再布置两个奢华度更高，家俱规格更大的样板间，如美婷的高端系列，可能更适合改善型住房业主的需求。我拭目以待！</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--选项卡二-->
+				<div class="col-xs-12 col-sm-12" style="display: none;">
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (3).jpg" />
+							<p> 沙发-Baird拜尔德皮沙发组合</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (1).jpg" />
+							<p> 边几/角几-PLANO普莱诺角几</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (6).jpg" />
+							<p> 电视柜-MAYNARD梅纳德电视柜</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (7).jpg" />
+							<p> 床头柜-Eure尤里床头柜</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (8).jpg" />
+							<p> 床-EURE尤里床</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (9).jpg" />
+							<p> 床头柜-KELVIN凯汶床头柜</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (10).jpg" />
+							<p> 床-HELA赫拉床</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (11).jpg" />
+							<p> 餐椅-CARLOS卡洛斯餐椅</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (12).jpg" />
+							<p> 餐椅-BARRIE巴里餐椅</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (13).jpg" />
+							<p> 餐桌-CARLOS卡洛斯拉伸餐桌</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (14).jpg" />
+							<p> 电视柜-ELY伊力电视柜</p>
+						</a>
+					</li>
+					<li>
+						<a class=" f-black">
+							<img src="images/4 (15).jpg" />
+							<p> 边几/角几-MAYNARD梅纳德角几</p>
+						</a>
+					</li>
+				</div>
+				<!--选项卡三-->
+				<div class="col-xs-12 col-sm-12 " style="display: none;">
+					<div id="Demo " class="bg_white">
+						<div id="CalendarMain">
+							<div id="title">
+								<a class="selectBtn month icon icon-109" href="javascript:" onclick="CalendarHandler.CalculateLastMonthDays();"></a>
+								<a class="selectBtn selectYear" href="javascript:" onClick="CalendarHandler.CreateSelectYear(CalendarHandler.showYearStart);">2014年</a>
+								<a class="selectBtn selectMonth" onClick="CalendarHandler.CreateSelectMonth()">6月</a>
+								<a class="selectBtn nextMonth icon icon-108" href="javascript:" onClick="CalendarHandler.CalculateNextMonthDays();"></a>
+								<a class="selectBtn currentDay" href="javascript:" onClick="CalendarHandler.CreateCurrentCalendar(0,0,0);">今天</a>
+							</div>
+							<div id="context">
+								<div class="week">
+									<h3> 一 </h3>
+									<h3> 二 </h3>
+									<h3> 三 </h3>
+									<h3> 四 </h3>
+									<h3> 五 </h3>
+									<h3> 六 </h3>
+									<h3> 日 </h3>
+								</div>
+								<div id="center">
+									<div id="centerMain">
+										<div id="selectYearDiv"></div>
+										<div id="centerCalendarMain">
+											<div id="Container"></div>
+										</div>
+										<div id="selectMonthDiv"></div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="top tcenter " style="display: none;" href="#tops">
+					<span class="icon icon-7 f20 f-white"></span>
+				</a>
+			</div>
+		</div>
+		<div style="display:none;" class="share" onclick="$(this).fadeOut();$(this).removeClass('ani-fade hand')">
+			<div class="sharebox">
+				点击右上角发送给指定朋友或分享到朋友圈 <i></i>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/lifeHome.js"></script>
+		<script type="text/javascript" src="js/calendar.js"></script>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=67jMQ5DmYTe1TLMBKFUTcZAR"></script>
+		<script type="text/javascript" src="js/baiduMapApi.js"></script>
+	</body>
+
+</html>

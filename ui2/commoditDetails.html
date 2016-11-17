@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<title>商品详情</title>
+		<link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/weui.css" />
+		<link rel="stylesheet" href="css/weui2.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/commoditDetails.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<span class="colle-commodity icon icon-49 f-color f25"></span>
+			<!--轮播-->
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img src="images/1 (1).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (2).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (4).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (5).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (6).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (7).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (8).jpg">
+					</div>
+					<div class="item">
+						<img src="images/1 (9).jpg">
+					</div>
+				</div>
+			</div>
+			<!--商品名称、价钱-->
+			<div class="indent">
+				<p >回眸一笑嫣然娇，断魂飘摇上碧霄</p>
+				<p class="f-color"><b>￥4543-￥4542</b></p>
+			</div>
+			<!--商品详情，规格-->
+			<div class="indent">
+				<p class="showOne">产品参数<span class="icon icon-108 right"></span></p>
+				<hr />
+				<p class="showTwo">规格、材质、库存<span class="icon icon-108 right"></span></p>
+			</div>
+			<!--商铺信息-->
+			<div class="row padding">
+				<div class="col-xs-6 col-sm-6 margin padding">
+					<div class="left padding">
+						<img src="images/2 (11).jpg" />
+					</div>
+					<div class="left padding">
+						<h5 >此行莫恨天涯遠</h5>
+						<button class="fb-color f12 " onclick="javascript:window.location.href='index.html'">进入品牌</button>
+					</div>
+				</div>
+				<div class="col-xs-6 col-sm-6 padding margin">
+					<div class="col-xs-6 col-sm-6 padding padding margin" onclick="javascript:window.location.href='index.html'">
+						<p class="tcenter f-black">106</p>
+						<p class="tcenter" style="color: #999999;">全部产品</p>
+					</div>
+
+					<div class="col-xs-6 col-sm-6 padding">
+						<p class="tcenter f-black">
+							<span class="fb-color button-padding">收藏</span>
+						</p>
+					</div>
+				</div>
+			</div>
+			<!--商品详情与参数-->
+			<div class="row padding commodit">
+				<div class="col-xs-12 col-sm-12 ">
+					<div class="col-xs-6 col-sm-6 tcenter commoditTianJia">
+						商品详情
+					</div>
+					<div class="col-xs-6 col-sm-6 tcenter">
+						商品参数
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-12 padding">
+					<img src="images/1 (5).jpg" />
+					<img src="images/1 (6).jpg" />
+					<img src="images/2 (5).jpg" />
+					<img src="images/2 (3).jpg" />
+					<img src="images/2 (1).jpg" />
+				</div>
+				<div class="col-xs-12 col-sm-12 padding" style="display: none;">
+					<div class="col-xs-4 col-sm-4 margin padding tcenter">
+						<ul>
+							<li>产品名称</li>
+							<li>产品编号</li>
+							<li>产品风格</li>
+							<li>品牌</li>
+							<li>主材</li>
+							<li>辅材</li>
+							<li>油漆</li>
+							<li>工艺</li>
+							<li>产地</li>
+							<li>交货期</li>
+							<li>说明</li>
+						</ul>
+					</div>
+					<div class="col-xs-8 col-sm-8 margin padding indent ">
+						<ul>
+							<li>Ellroy艾洛伊沙发</li>
+							<li>591111577309</li>
+							<li>简约美式</li>
+							<li>夏尔</li>
+							<li>桉木</li>
+							<li>E1级实木多层板+针织面料</li>
+							<li>NC环保漆</li>
+							<li>榫卯</li>
+							<li>浙江宁波</li>
+							<li>50天(特殊情况询客服)</li>
+							<li>图片可能有色差</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<a class="top tcenter" href="#tops" style="display: none;">
+				<span class="icon icon-7 f20 f-white"></span>
+			</a>
+			<!--弹出信息-->
+			<div class="row" id="popup" style="display: none;">
+				<div class="popup">
+					<div class="bg-white tcenter f15">参数</div>
+					<div class="col-xs-12 col-sm-12 padding bg-white">
+
+						<div class="col-xs-4 col-sm-4 margin padding tcenter">
+							<ul>
+								<li>产品名称</li>
+								<li>产品编号</li>
+								<li>产品风格</li>
+								<li>品牌</li>
+								<li>主材</li>
+								<li>辅材</li>
+								<li>油漆</li>
+								<li>工艺</li>
+								<li>产地</li>
+								<li>交货期</li>
+								<li>说明</li>
+							</ul>
+						</div>
+						<div class="col-xs-8 col-sm-8 margin padding indent ">
+							<ul>
+								<li>Ellroy艾洛伊沙发</li>
+								<li>591111577309</li>
+								<li>简约美式</li>
+								<li>夏尔</li>
+								<li>桉木</li>
+								<li>E1级实木多层板+针织面料</li>
+								<li>NC环保漆</li>
+								<li>榫卯</li>
+								<li>浙江宁波</li>
+								<li>50天(特殊情况询客服)</li>
+								<li>图片可能有色差</li>
+							</ul>
+						</div>
+					</div>
+					<button class="tcenter f16 hideOne">确定</button>
+				</div>
+				<div class="popup">
+					<div class="bg-white tcenter f15">
+						<div class="col-xs-4 col-sm-4"><img src="images/3 (18).jpg"></div>
+						<div class="col-xs-8 col-sm-8 tleft">
+							
+								<p class="f-black">你是人间四月天</p>
+								<p class="f-color ">￥2500</p>
+								<p class="f-gray f13">请选择规格颜色分类</p>
+						</div>
+
+					</div>
+					<div class="col-xs-12 col-sm-12 padding bg-white ">
+						<div class="choose">
+							<p>规格（长*宽*高）</p>
+							<button class="buttonTianJia">1000*900*930（单人位）</button>
+							<button>1800*900*930（双人位）</button>
+							<button>2180*900*930（三人位）</button>
+							<button>单人位+三人位</button>
+							<button>单人位+单人位+三人位</button>
+							<button>单人位+双人位+三人位</button>
+						</div>
+						<div class="choose">
+							<p>材质</p>
+							<button class="buttonTianJia">核木</button>
+						</div>
+						<div class="choose">
+							<p>颜色</p>
+							<button class="buttonTianJia">纳瓦白11103</button>
+							<button>定制色</button>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-12  bg-white">库存：455</div>
+					<button class="tcenter f18 hideOne">确定</button>
+				</div>
+			</div>
+
+		</div>
+		<!--预留底部信息-->
+		<div class="obligate">
+			<!--预留底部信息-->
+			<!--预留底部信息-->
+			<!--预留底部信息-->
+		</div>
+		<div class="weui_tab tab-bottom zindex">
+			<div class="weui_tabbar ">
+				<a href="index.html" class="weui_tabbar_item ">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black">&#xe602;</i>
+					</div>
+					<p class="weui_tabbar_label ">首页</p>
+				</a>
+				<a href="indexLifeHome.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black ">&#xe607;</i>
+					</div>
+					<p class="weui_tabbar_label" style="padding-left: 3%;">买家秀</p>
+				</a>
+				<a href="user.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black ">&#xe603;</i>
+					</div>
+					<p class="weui_tabbar_label">用户</p>
+				</a>
+			</div>
+		</div>
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/commoditDetails.js"></script>
+
+	</body>
+
+</html>

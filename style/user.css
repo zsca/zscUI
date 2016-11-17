@@ -1,0 +1,105 @@
+body{
+	width: 100vw;
+}
+.bg-white{
+	background-color: white;
+}
+.bodyMarginTop{
+	margin-top: 60px;
+}
+.bodyMarginButton{
+	margin-bottom: 60px;
+}
+
+.weui-header-right{
+	margin-top: -4px;
+}
+.weui-header-right a {
+	background-color: white;
+	font-size: 17px;
+	padding: 2px;
+	color: black;	
+}
+
+.delete {
+	width: 100vw;
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+}
+.delete a{
+	flex: 1;
+	height: 25px;
+	padding:10px 0;
+	
+	text-align: center;
+}
+.delete a.delete_buttom{
+	background-color: #EF4F4F;
+	color: white;
+}
+.delete a.return_buttom{
+	background-color: #F7F7F7;
+	color: black;
+}
+.weui_dialog_confirm_tianjia {
+	opacity: 1 !important;
+	visibility: visible !important;
+}
+
+.help_center_body {
+	background-color: #F7F7F7;
+}
+
+.suggest_submit {
+	float: right;
+	margin-right: 20px;
+}
+
+.weui_cell_one {
+	background-color: #F7F7F7;
+
+}
+label.labelAdd{
+	animation:myfirst 5s;
+	-webkit-animation:myfirst 5s; 
+}
+
+.weui_cell:before{
+	left: 0;
+}
+
+.weui_cell .weui_cell_ft_p {
+	margin: 20px auto;
+	text-align: left !important;
+	float: left !important;
+	flex: 2;
+}
+
+.weui_cell .weui_cell_ft_right {
+	font-size: 20px;
+}
+
+.weui_cell .weui_cell_ft_p_one {
+	color: black !important;
+}
+
+.weui_cell .weui_cell_ft_p_two {
+	font-size: 13px;
+	color: cornflowerblue !important;
+}
+
+.xiangmu_top {
+	width: 100vw;
+	position: fixed;
+	z-index: 9999999;
+	top: 0px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.header-right{
+	margin-right: 5px;
+}
+.weui_cells_checkbox{
+	margin: 55px 0;
+}

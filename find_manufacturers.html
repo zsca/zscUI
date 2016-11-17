@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>找家具网-找厂家</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<link rel="stylesheet" href="style/weui.css" />
+		<link rel="stylesheet" href="style/weui2.css" />
+		<link rel="stylesheet" href="style/find.css" />
+		<link rel="stylesheet" type="text/css" href="style/iconfont.css"/>
+	</head>
+	<style type="text/css">
+		
+	</style>
+
+	<body ontouchstart>
+
+		
+		<!--头部-->
+		<div class="xiangmu_top" >
+			
+			<div class="xiangmu_top" >
+				<!--筛选-->
+				<div class="weui_tab">
+					<div class="weui_navbar " id="pull">
+						<div class="find_manu_border" id="pulldownleft">
+							摆放位置
+							<a class="icon icon-6 f-gray" name="top"></a>
+						</div>
+						<div class=" find_manu_border" id="pulldowncenter">
+							材料
+							<a class="icon icon-6 f-gray" ></a>
+						</div>
+						<div class="find_manu_border" id="pulldownright">
+							风格
+							<a class="icon icon-6 f-gray" ></a>
+						</div>
+					</div>
+					<div class="weui_tab_bd ">
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!--下选项-->
+
+		<div id="pulldown" style="display:none;" class="pulldown">
+
+			<div class="weui_tab">
+				<!--左-->
+				<div class="weui_navbar" id="pullLeft" style="display: none;">
+					<div  id="find_manu_xiala_left">
+						<ul>
+							<li class="leftLiAdd">居家 <span class="icon icon-108 right"></span></li>
+							<li>室外<span class="icon icon-108 right"></span></li>
+							<li>商业<span class="icon icon-108 right"></span></li>
+							<li>办公<span class="icon icon-108 right"></span></li>
+						</ul>
+					</div>
+					<div  id="find_manu_xiala_right">
+						<div>
+							<ul>
+								<li><a href="">厨房</a></li>
+								<li><a href="">餐厅</a></li>
+								<li><a href="">客厅</a></li>
+								<li><a href="">卧室</a></li>
+								<li><a href="">书房</a></li>
+								<li><a href="">卫生间</a></li>
+								<li><a href="">厨房</a></li>
+								<li><a href="">餐厅</a></li>
+								<li><a href="">客厅</a></li>
+								<li><a href="">卧室</a></li>
+								<li><a href="">书房</a></li>
+								<li><a href="">卫生间</a></li>
+								<li><a href="">厨房</a></li>
+								<li><a href="">餐厅</a></li>
+								<li><a href="">客厅</a></li>
+								<li><a href="">卧室</a></li>
+								<li><a href="">书房</a></li>
+								<li><a href="">卫生间</a></li>
+								<li><a href="">厨房</a></li>
+								<li><a href="">餐厅</a></li>
+								<li><a href="">客厅</a></li>
+								<li><a href="">卧室</a></li>
+								<li><a href="">书房</a></li>
+								<li><a href="">卫生间</a></li>
+
+							</ul>
+							<ul>
+								<li><a href="">a2</a></li>
+								<li><a href="">a2</a></li>
+								<li><a href="">a2</a></li>
+								<li><a href="">a2</a></li>
+							</ul>
+							<ul>
+								<li><a href="">a3</a></li>
+								<li><a href="">a3</a></li>
+								<li><a href="">a3</a></li>
+								<li><a href="">a3</a></li>
+							</ul>
+							<ul>
+								<li><a href="">a4</a></li>
+								<li><a href="">a4</a></li>
+								<li><a href="">a4</a></li>
+								<li><a href="">a4</a></li>
+							</ul>
+						</div>
+						
+					</div>
+				</div>
+				<!--中-->
+				<div class="weui_navbar " id="material" style="display: none;">
+
+					<div>
+						<ul>
+							<li >
+								<label for="clxx1">橡木</label>
+								<input type="checkbox" value="橡木" id="clxx1" />
+								
+							</li>
+							<li >
+								
+								<label for="clxx2">实木</label>
+								<input type="checkbox" value="实木" id="clxx2" />
+							</li>
+							<li ><input type="checkbox" value="卧室" id="clxx3" class="" /><label for="clxx3">卧室</label></li>
+							<li ><input type="checkbox" value="厨房" id="clxx4" class="" /><label for="clxx4">厨房</label></li>
+							<li ><input type="checkbox" value="衣柜" id="clxx5" class="" /><label for="clxx5">衣柜</label></li>
+							<li ><input type="checkbox" value="家具" id="clxx6" class="" /><label for="clxx6">家具</label></li>
+							<li class="bg-gray">
+								<a class="resetting1">重置</a>
+								<a href="" class="right">确定</a>
+							</li>
+						</ul>
+					</div>
+						
+				</div>
+				<!--右-->
+				<div class="weui_navbar" id="pullright" style="display: none;">
+					<div>
+						<ul>
+							<li><input type="checkbox" value="中式" id="clxx1" class="" /><label for="clxx1">中式</label></li>
+							<li><input type="checkbox" value="欧式" id="clxx4" class="" /><label for="clxx4">欧式</label></li>
+							<li><input type="checkbox" value="复古" id="clxx5" class="" /><label for="clxx5">复古</label></li>
+							<li class="bg-gray">
+								<a class="resetting2">重置</a>
+								<a href="" class="right">确定</a>
+							</li>
+						</ul>
+					</div>
+				
+						
+				
+				</div>
+			</div>
+		</div>
+
+		<!--内容-->
+		<div class="bodyMarginBotton" >
+			<div class="weui_panel weui_panel_access">
+				<div class="weui_panel_hd">厂家</div>
+				<div class="weui_panel_bd " id="pullbody">
+					<!--<a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">
+						<div class="weui_media_hd">
+							<img class="weui_media_appmsg_thumb" src="images/icon_nav_article.png" alt="">
+						</div>
+						<div class="weui_media_bd">
+							<h4 class="weui_media_title">商品一</h4>
+							<p class="weui_media_desc">材料：橡木</p>
+						</div>
+					</a>-->
+					
+
+				</div>
+				<a class="weui_panel_ft tcenter" href="javascript:void(0);">查看更多</a>
+			</div>
+		</div>
+		<!--置顶-->
+		<a href="#top" id="topReturn">
+			<span class="icon icon-7 f29">
+				
+			</span>
+		</a>
+		<!--底部导航栏-->
+		<div class="weui_tab tab-bottom zindex" style="height:55px;">
+
+			<div class="weui_tabbar ">
+				<a href="index.html" class="weui_tabbar_item ">
+					<div class="weui_tabbar_icon ">
+						<i class="iconfont f10rem">&#xe62a;</i>
+					</div>
+					<p class="weui_tabbar_label">首页</p>
+				</a>
+				<a href="new_product.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f10rem">&#xe629;</i>
+					</div>
+					<p class="weui_tabbar_label">新款</p>
+				</a>
+				<a href="find_commodity_.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f10rem">&#xe61d;</i>
+					</div>
+					<p class="weui_tabbar_label">找家具</p>
+				</a>
+				<a href="#" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f10rem f-red">&#xe638;</i>
+					</div>
+					<p class="weui_tabbar_label f-red">找厂家</p>
+				</a>
+				<a href="user_home.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f10rem">&#xe633;</i>
+					</div>
+					<p class="weui_tabbar_label">我</p>
+				</a>
+			</div>
+		</div>
+		<script type="text/javascript" src="javascript/jquery-1.8.3.js"></script>
+		<script type="text/javascript" src="javascript/find1.js" ></script>
+	</body>
+
+</html>

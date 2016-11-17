@@ -1,0 +1,324 @@
+		.container,
+		.container nav,
+		.container>.navbar,
+		.container>.panel-default,
+		.container>#myCarousel,
+		.container .row {
+			margin: 0px;
+			padding: 0px;
+			width: 100vw !important;
+		}
+		
+		.bg_white {
+			background-color: white;
+		}
+		
+		.padding {
+			padding: 0;
+		}
+		
+		.margin {
+			margin: 0;
+		}
+		.f-color{
+			color: rgb(299, 39, 98);
+		}
+		.container>div:nth-of-type(1) {
+			text-align: center;
+			position: relative;
+			width: 100vw;
+		}
+		
+		.container>div:nth-of-type(1)>img:nth-of-type(1) {
+			width: 100vw;
+		}
+		
+		.container>div:nth-of-type(1)>div {
+			border-bottom: 1px solid gainsboro;
+			padding-bottom: 5px;
+			position: relative;
+			top: -35px;
+			font-size: 13px;
+			font-weight:normal;
+			color: #828282;
+		}
+		.container>div:nth-of-type(1)>div>p{
+			font-weight: bold;
+			color: #000000;
+			overflow: hidden;
+			height: 20px;
+		}
+		.container>div:nth-of-type(1)>div>img:nth-of-type(1) {
+			width: 55px;
+			height: 55px;
+			margin: 0 auto;
+			background-color: white;
+			border-radius: 50%;
+		}
+		
+		.container>div:nth-of-type(2) {
+			box-shadow: 1px 1px 5px gainsboro;
+			background-color: white;
+			height: 39px;
+		}
+		
+		.container>div:nth-of-type(2)>div {
+			padding: 8px 20px;
+			
+			font-family:"Heiti SC", "Microsoft Yahei";
+		}
+		
+		.clickAdd {
+			border-bottom: 1px solid rgb(299, 39, 98);
+			color: rgb(299, 39, 98);
+		}
+		
+		.container>div:nth-of-type(2)>div:nth-of-type(1),
+		.container>div:nth-of-type(2)>div:nth-of-type(2) {
+			border-right: 1px solid gainsboro;
+		}
+		.container>div:nth-of-type(3).row {
+			padding: 10px 10px;
+			background-color: #fafafa;
+		}
+		.container>div:nth-of-type(3).row>div{
+			padding: 0px !important;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(1) p,
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(2)>p {
+			margin: 0;
+			padding: 10px;
+			border-bottom: 1px solid gainsboro;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div li {
+			list-style-type: none;
+			padding: 5px 0;
+			line-height: 1.5rem;
+			font-size: 1.3rem;
+			font-family: "Heiti SC", "Microsoft Yahei";
+			overflow: hidden;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div>ul:nth-of-type(1) {
+			color: gray;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(2) {
+			margin-top: 15px;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(2)>div:nth-of-type(1) {
+			width: 100%;
+			height: 200px;
+			
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(3) {
+			margin-top: 15px;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(3) img {
+			width: 100%;
+			padding-bottom: 10px;
+			background-color: white;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(3) p {
+			border-bottom: 1px solid gainsboro;
+			padding: 5px 8px 15px 8px;
+			margin-bottom: 10px;
+			background-color: white;
+			font-size: 1.3rem;
+			color: #666;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(4) {
+			border-bottom: 1px solid gainsboro;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(4)>div {
+			margin-bottom: 10px;
+			border-bottom: 1px solid gainsboro;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(4)>div>div>img {
+			background-color: white;
+			border-radius: 50%;
+			width: 100%;
+		}
+		
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(4)>div>div>span {
+			margin-right: 15px;
+			font-size: 13px;
+			color: #696969;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(4)>div>div>b{
+			font-size: 13px;
+			color: #696969;
+			padding-left: 10px;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(1)>div:nth-of-type(4)>div>div>p {
+			padding: 10px;
+			font-size: 12px;
+			font-size: .6rem;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(2)>li{
+			list-style-type: none;
+			margin-bottom: 10px;
+			width: 48%;
+			float: left;
+			background-color: #fff;
+			border: 1px solid #efefef;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(2)>li:nth-child(odd){
+			margin-right: 2%;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(2)>li:nth-child(even){
+			margin-left: 2%;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(2)>li a {
+			padding: 0px;
+			
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(2)>li a img {
+			width: 100%;
+		}
+		.container>div:nth-of-type(3).row>div:nth-of-type(2)>li a p{
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			padding: 5px 8px;
+			margin-bottom: 0px;
+			color: #3d3c3c;
+			font-size: 12px;
+		}
+		.scrollTop {
+			position: fixed;
+			z-index: 5;
+			top: 0px;
+			animation: myfirst 0.5s;
+			-moz-animation: myfirst 0.5s;
+			/* Firefox */
+			-webkit-animation: myfirst 0.5s;
+			/* Safari 和 Chrome */
+			-o-animation: myfirst 0.5s;
+		}
+		
+		@keyframes myfirst {
+			25% {
+				position: fixed;
+				z-index: 5;
+				top: -37.5px;
+			}
+			50% {
+				position: fixed;
+				z-index: 5;
+				top: -25px;
+			}
+			75% {
+				position: fixed;
+				z-index: 5;
+				top: -12.5px;
+			}
+			100% {
+				position: fixed;
+				z-index: 5;
+				top: 0px;
+			}
+		}
+		
+		@-moz-keyframes myfirst
+		/* Firefox */
+		
+		{
+			25% {
+				position: fixed;
+				z-index: 5;
+				top: -37.5px;
+			}
+			50% {
+				position: fixed;
+				z-index: 5;
+				top: -25px;
+			}
+			75% {
+				position: fixed;
+				z-index: 5;
+				top: -12.5px;
+			}
+			100% {
+				position: fixed;
+				z-index: 5;
+				top: 0px;
+			}
+		}
+		
+		@-webkit-keyframes myfirst
+		/* Safari and Chrome */
+		
+		{
+			25% {
+				position: fixed;
+				z-index: 5;
+				top: -37.5px;
+			}
+			50% {
+				position: fixed;
+				z-index: 5;
+				top: -25px;
+			}
+			75% {
+				position: fixed;
+				z-index: 5;
+				top: -12.5px;
+			}
+			100% {
+				position: fixed;
+				z-index: 5;
+				top: 0px;
+			}
+		}
+		
+		@-o-keyframes myfirst
+		/* Opera */
+		
+		{
+			25% {
+				position: fixed;
+				z-index: 5;
+				top: -37.5px;
+			}
+			50% {
+				position: fixed;
+				z-index: 5;
+				top: -25px;
+			}
+			75% {
+				position: fixed;
+				z-index: 5;
+				top: -12.5px;
+			}
+			100% {
+				position: fixed;
+				z-index: 5;
+				top: 0px;
+			}
+		}
+		/*返回顶部*/
+		.top {
+			width: 30px;
+			height: 30px;
+			border-radius: 50%;
+			border: 1px solid rgb(299, 39, 98);
+			background-color: rgb(299, 39, 98);
+			position: fixed;
+			z-index: 3;
+			bottom: 40px;
+			right: 20px;
+		}
+		
+		.top span {
+			line-height: 30px;
+		}
+		

@@ -1,0 +1,172 @@
+
+.bodyMarginBotton{
+	margin-bottom: 60px;
+}
+/*顶部筛选栏*/
+.xiangmu_top .weui_tab{
+	height: 40px;
+}
+
+.xiangmu_top .weui_tab .weui_navbar{
+	display: flex;
+	background-color: white !important;
+}
+.xiangmu_top .weui_tab .weui_navbar:after{
+	border-bottom: none;
+}
+.xiangmu_top .weui_tab .weui_navbar .find_manu_border{
+	flex: 1;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.xiangmu_top .weui_tab .weui_navbar .find_manu_border a{
+	font-size: 14px !important;
+}
+/*顶部赛选栏结束*/
+/*顶部筛选选项*/
+#pulldown{
+	width: 100vw;
+	height: 95vh;
+	overflow: scroll;
+	background-color: rgba(240,240,240,0.5);
+	position: fixed;
+	z-index: 55;
+	
+}
+#pulldown .weui_tab div div ul li{
+	list-style-type: none;
+	padding-left:15px ;
+	height: 45px;
+	line-height: 45px;
+	font-size:1.0rem;
+}
+#pulldown .weui_tab .weui_navbar{
+	display: flex;
+}
+#pulldown .weui_tab .weui_navbar{
+	max-height: 89vh;
+	overflow: overlay;
+	overflow: scroll;
+	overflow: hidden;
+
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(1) ul{
+	padding-bottom: 35px;
+	height: 89vh;
+	overflow: overlay;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(1) ul li{
+	border-bottom: 1px solid gainsboro;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(1) #find_manu_xiala_left{
+	flex: 2;
+	background-color: white;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(1) #find_manu_xiala_left ul li span{
+	font-size:0.85rem ;
+	height: 35px;
+	line-height: 35px;
+	
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(1) #find_manu_xiala_left ul li.leftLiAdd{
+	background-color: #F0F0F0;
+	color: #18b4ed;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(1) #find_manu_xiala_right{
+	flex: 3;
+	background-color: #F0F0F0;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(2),
+#pulldown .weui_tab .weui_navbar:nth-of-type(3){
+	background-color: white;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(2) div li,
+#pulldown .weui_tab .weui_navbar:nth-of-type(3) div li{
+	width: 90vw;
+	padding-right: 15px;
+	border-bottom: 1px solid gainsboro;
+	border-bottom-width: 80%;
+}
+#pulldown .weui_tab .weui_navbar:nth-of-type(2) div li input,
+#pulldown .weui_tab .weui_navbar:nth-of-type(3) div li input{
+	width: 1.5rem;
+	height: 45px;
+	line-height: 45px;
+	float: right;
+	background-color: white !important;
+}
+
+/*顶部筛选结束*/
+/*返回顶部*/
+#topReturn{
+	width: 30px;
+	height: 30px;
+	background-color: #06c1ae;
+	position: fixed;
+	bottom: 90px;
+	right: 30px;
+	z-index: 55;
+	border-radius: 50%;
+	display: none;
+}
+#topReturn span{
+	line-height: 35px;
+	text-align: center;
+	color: white;
+}
+/*返回顶部*/
+/*商品详情页*/
+h4,h5{
+	padding-left: 7px;
+}
+.slide:after{
+	padding-top: 0 !important;
+}
+.commodity div{
+	padding: 5px 10px;
+}
+.commodity div hr{
+	margin: 5px 10px !important;
+}
+.commodity div button{
+	border-radius: 5px;
+	padding: 3px 5px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border: 1px solid gainsboro;
+}
+.commodity div button.buttonAdd{
+	background-color: #557098;
+	color: white !important;
+}
+#message{
+	margin-bottom: 60px;
+}
+#message div.hd{
+	background-color:#F7F7F7 !important;
+}
+#message div.hd ul{
+	margin: 0 20px;
+	display: flex;
+	
+}
+#message div.hd ul li{
+	
+	flex: 1;
+	list-style-type: none;
+	text-align: center;
+	height: 40px;
+	line-height: 40px;
+}
+#message div.hd ul li.on{
+	border-bottom: 2px solid #04BE02;
+	color: #04BE02;
+}
+#suggest_submit_cancel{
+	margin-right: 10px;
+}
+#message div.bd ul:nth-of-type(2) li div div div.row{
+	padding-bottom: 10px;
+}
+/*商品详情页*/

@@ -1,0 +1,289 @@
+body{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	background-color: #f5f5f5;
+}
+body .weui_cells_checkbox{
+	padding-bottom: 20px;
+	margin-bottom: 85px;
+}
+body>p.bg_white{
+	margin: 20px 10px;
+	margin-bottom: 10px;
+	padding: 10px 10px;
+}
+.weui-header-right a {
+	
+	font-size: 1.0rem;
+	border: none;
+	border: 1px solid rgb(0, 0, 0, re);
+}
+.bg_white{
+	background-color: white;
+}
+.f6rem{
+	font-size: 0.8rem !important;
+}
+.f10rem{
+	font-size: 1.0rem !important;
+}
+.delete {
+	width: 100vw;
+	position: fixed;
+	bottom: 0;
+	z-index: 501;
+	margin-left:0 !important;
+}
+
+.delete_buttom,.off_buttom {
+	width: 50% !important;
+	text-align: center;
+	padding: 10px 0px;
+	margin-left: 0 !important;
+}
+body>div>form>div.weui_select_before{
+	width: 90vw;
+	padding-right: 0;
+}
+.weui_cell_bd{
+	font-size: 0.8rem !important;
+}
+.weui_dialog_confirm_tianjia {
+	opacity: 1;
+	visibility: visible;
+}
+
+.help_center_body {
+	margin-top: 20px;
+	background-color: #F7F7F7;
+}
+
+.suggest_submit {
+	float: right;
+	margin-right: 20px;
+}
+
+.weui_cell_one {
+	background-color: #F7F7F7;
+}
+
+.weui_cell .weui_cell_ft_p {
+	margin: 20px auto;
+	text-align: left !important;
+	float: left !important;
+	flex: 2;
+}
+
+.weui_cell .weui_cell_ft_right {
+	font-size:.6rem;
+}
+
+.weui_cell .weui_cell_ft_p_one {
+	color: black !important;
+	font-size: 1.0rem;
+	overflow: hidden;
+	height: 25px;
+}
+
+.weui_cell .weui_cell_ft_p_two {
+	font-size: 1.0rem;
+	color: cornflowerblue !important;
+}
+
+.xiangmu_top {
+	width: 100vw;
+	position: fixed;
+	z-index: 503;
+	top: 0px;
+	height: 45px;
+	
+}
+.xiangmu_top_qingchu {
+	width: 100vw;
+	height: 45px;
+	overflow: auto;
+}
+.header-right{
+	margin-right: 20px;
+}
+body>div.weui-header{
+	border-bottom: 1px solid gainsboro;
+}
+/**/
+body .weui_cells_checkbox label{
+	width: 100vw;
+}
+body .weui_cells_checkbox label .weui_cell_bd{
+	width: 80vw;
+	padding-left: 0px;
+}
+body .weui_cells_checkbox label .weui_cell_bd a{
+	padding-left: 0px;
+	padding: 0px;
+}
+body .weui_cells_checkbox label .weui_cell_bd a .weui_media_hd{
+	width: 60px;
+	height: 60px;
+}
+body .weui_cells_checkbox label .weui_cell_bd a .weui_media_hd img{
+	width: 100%;
+	height: 100%;
+}
+.f-color{
+	color:#ee4353 !important;
+}
+.f-back1{
+	color: #3D3C3C !important;
+}
+.weui_tab{
+	
+	height: 45px;
+}
+#user_home_help{
+	margin-bottom: 60px;
+}
+/*黄页*/
+.yp{
+	margin-top:50px ;
+	margin:10px ;
+	margin-bottom: 55px;
+	padding: 10px 5px;
+	padding-top: 0px;
+	
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(1),
+.yp>div:nth-of-type(2)>form>div:nth-of-type(1){
+	border-bottom: 1px solid gainsboro;
+	margin: 8px 0;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(1)>p:nth-of-type(1),
+.yp>div:nth-of-type(2)>form>div:nth-of-type(1)>p:nth-of-type(1){
+	padding: 10px 15px;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(1)>p:nth-of-type(1)>button,
+.yp>div:nth-of-type(2)>form>div:nth-of-type(1)>p:nth-of-type(1)>button{
+	margin-left: 10px;
+	padding: 5px;
+	border: 1px solid gainsboro;
+	border-radius: 10%;
+	background-color: white;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(2)>img{
+	width: 50px;
+	float: right;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(1)>p:nth-of-type(1)>button:nth-of-type(2),
+.yp>div:nth-of-type(2)>form>div:nth-of-type(2)>p>button{
+	background-color: #336699;
+	padding: 5px;
+	border-radius: 10%;
+	color: white;
+	border: 1px solid gainsboro;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(2){
+	padding: 10px 10px;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(2)>*{
+	margin: 5px 0;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(2)>p:nth-of-type(1){
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(2)>hr{
+	margin: 8px 0px;
+}
+.yp>div:nth-of-type(1)>div:nth-of-type(2) button{
+	margin-left: 5px;
+	background-color: white;
+	border: 1px solid gainsboro;
+	padding: 4px;
+	border-radius: 5%;
+}
+.yp>div:nth-of-type(2)>form>div:nth-of-type(2)>div{
+	padding: 10px 8px;
+}
+.yp>div:nth-of-type(2)>form>div:nth-of-type(2)>div>h5{
+	margin-bottom: 5px;
+}
+.yp>div:nth-of-type(2)>form>div:nth-of-type(2)>div>select{
+	width: 100%;
+	margin: 10px 0;
+	height: 35px;
+	padding: 5px;
+	border-radius: 5px;
+}
+.yp>div:nth-of-type(2)>form>div:nth-of-type(2)>div>input
+{
+	width: 100%;
+	height: 25px;
+	border-radius: 5px;
+}
+
+.yp>div:nth-of-type(2)>form>div:nth-of-type(2)>p{
+	padding-right: 15px;
+}
+/*订单管理*/
+.Of{
+	margin-top: 15px;
+	margin-bottom:85px;
+}
+.Of ul li{
+	list-style-type: none;
+}
+.Of>ul:nth-of-type(1){
+	margin-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.Of>ul:nth-of-type(1) li{
+	display: inline-block;
+	border: 1px solid gray;
+	border-radius:10% ;
+	padding: 3px ;
+	font-size: 13px;
+}
+.Of>ul:nth-of-type(2) li{
+	margin: 10px 0px;
+	pa
+}
+.Of>p.bg_white{
+	padding-left: 5px;
+}
+.Of>ul:nth-of-type(2) li p{
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.Of>ul:nth-of-type(2) li div a{
+	padding: 0px;
+}
+.Of>ul:nth-of-type(2) li div a div{
+	height: 100px !important;
+}
+.Of>ul:nth-of-type(2) li div a div.weui_media_hd{
+	width: 100px;
+}
+.Of>ul:nth-of-type(2) li div a div.weui_media_bd{
+	padding-right: 10px;
+}
+.Of>ul:nth-of-type(2) li div a div img{
+	height: 100px;
+	width: 100px;
+}
+.Of>ul:nth-of-type(2) li div a div p:nth-of-type(1){
+	height: 30px;
+	margin-top:10px ;
+}
+.Of>ul:nth-of-type(2) li div a div p{
+	height: 20px;
+	
+	padding: 0;
+}
+/*我申请过报价的公司*/
+.maoc{
+	margin-bottom: 85px;
+}
+.maoc>div{
+	margin: 5px 0;
+}

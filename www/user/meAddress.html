@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>用户中心-收货地址</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+		<link rel="stylesheet" href="../css/weui.css" />
+		<link rel="stylesheet" href="../css/weui2.css" />
+		<link rel="stylesheet" href="../css/user.css" />
+		<link rel="stylesheet" type="text/css" href="../css/iconfont.css"/>
+	</head>
+
+	<body ontouchstart>
+		<!--头部-->
+		<div class="weui-header bg_white xiangmu_top">
+			<div class="weui-header-left">
+				<a class="icon icon-109 f-black" href="../user.html"></a>
+			</div>
+			<h1 class="weui-title f-black f10rem">收货地址</h1>
+			
+		</div>
+		<div class="xiangmu_top_qingchu">
+
+		</div>
+		<div class="bg_white yp">
+			<div id="YpOne">
+				<div >
+					<p class="tright">
+					<button  onclick="javascript:window.location.href='../user.html'">返回</button>
+					<button class="YpOneHide">编辑</button>
+					</p>
+				</div>
+				<div class="f13">
+					
+					<p ><b>联系人：</b><span>村上春树</span></p>
+					<p><b>手机号：</b><span>18888888888</span><button class="f12">拨打</button></p>
+					<p><b>地址：</b><span>虔城幸福区幸福路幸福小区</span></p>
+				</div>
+			</div>
+			<div id="YpTwo" style="display: none;">
+				<form action="#" method="get">
+					<div >
+						<p class="tright">
+						<button class="YpTwoHide" type="button">返回</button>
+						
+						</p>
+					</div>
+					<div>
+						<div >
+							<h5>联系人</h5>
+							<input type="text" value=""/>
+						</div>
+						<div >
+							<h5>手机号</h5>
+							<input type="tel" value=""/>
+						</div>
+						<div >
+							<h5>座机</h5>
+							<input type="tel" value=""/>
+							
+						</div>
+						<div >
+							<select id="shen"></select>
+							<select id="city"></select>
+							<select id="xian"></select>
+						</div>
+						<div >
+							<h5>详细地址</h5>
+							<input type="text" value=""/>
+						</div>
+						<p class="tright" ><button type="submit">提交</button></p>
+					</div>
+				</form>
+			</div>
+			<div class="weui_tab tab-bottom zindex">
+			<div class="weui_tabbar ">
+				<a href="../index.html" class="weui_tabbar_item ">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black">&#xe602;</i>
+					</div>
+					<p class="weui_tabbar_label">首页</p>
+				</a>
+				<a href="../indexLifeHome.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black ">&#xe607;</i>
+					</div>
+					<p class="weui_tabbar_label" style="padding-left: 3%;">买家秀</p>
+				</a>
+				<a href="../user.html" class="weui_tabbar_item">
+					<div class="weui_tabbar_icon">
+						<i class="iconfont f-black ">&#xe603;</i>
+					</div>
+					<p class="weui_tabbar_label ">用户</p>
+				</a>
+			</div>
+		</div>
+		</div>
+		<script src="../js/jquery-3.1.0.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/user.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/js3city.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			addressInit('shen', 'city', 'xian', '请选择省', '请选择市', '请选择县');
+		</script>
+	</body>
+</html>

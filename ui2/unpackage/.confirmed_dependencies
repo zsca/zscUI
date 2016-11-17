@@ -1,0 +1,185 @@
+{
+	"index.html": {
+		"resources": [
+			"images/2 (6).jpg",
+			"images/2 (7).jpg",
+			"images/2 (9).jpg",
+			"js/jquery-3.1.0.min.js",
+			"images/1 (2).jpg",
+			"css/index.css",
+			"css/bootstrap.css",
+			"images/2 (13).jpg",
+			"images/1 (7).jpg",
+			"images/1 (6).jpg",
+			"css/iconfont.css",
+			"css/weui2.css",
+			"images/2 (15).jpg",
+			"images/2 (3).jpg",
+			"images/1 (1).jpg",
+			"indexLifeHome.html",
+			"images/2 (11).jpg",
+			"images/2 (2).jpg",
+			"images/2 (8).jpg",
+			"images/2 (10).jpg",
+			"images/2 (12).jpg",
+			"images/1 (9).jpg",
+			"images/2 (4).jpg",
+			"images/2 (16).jpg",
+			"images/1 (5).jpg",
+			"images/1 (8).jpg",
+			"js/bootstrap.js",
+			"images/1 (4).jpg",
+			"images/2 (5).jpg",
+			"js/index.js",
+			"images/2 (14).jpg",
+			"css/weui.css",
+			"images/2 (1).jpg",
+			"user.html",
+			"commoditDetails.html"
+		],
+		"refer": [
+			"indexLifeHome.html",
+			"user.html",
+			"commoditDetails.html"
+		]
+	},
+	"user.html": {
+		"resources": [
+			"css/user.css",
+			"index.html",
+			"user/meSupplier.html",
+			"user/yellowPages.html",
+			"indexLifeHome.html",
+			"user/user_home_useralter.html",
+			"user/meApplyOfferCompany.html",
+			"user/help_center.html"
+		],
+		"refer": [
+			"index.html",
+			"user/meSupplier.html",
+			"user/yellowPages.html",
+			"indexLifeHome.html",
+			"user/user_home_useralter.html",
+			"user/meApplyOfferCompany.html",
+			"user/help_center.html"
+		]
+	},
+	"indexLifeHome.html": {
+		"resources": [
+			"images/11 (16).jpg",
+			"images/11 (14).jpg",
+			"images/11 (17).jpg",
+			"images/11 (20).jpg",
+			"images/11 (18).jpg",
+			"user.html",
+			"images/11 (21).jpg",
+			"images/11 (12).jpg",
+			"images/11 (15).jpg",
+			"images/11 (11).jpg",
+			"images/11 (13).jpg",
+			"js/TouchSlide.1.1.js",
+			"images/11 (19).jpg",
+			"lifeHome.html",
+			"index.html"
+		],
+		"refer": [
+			"user.html",
+			"lifeHome.html",
+			"index.html"
+		]
+	},
+	"lifeHome.html": {
+		"resources": [
+			"js/baiduMapApi.js",
+			"images/3 (17).jpg",
+			"css/lifeHome.css",
+			"images/3 (15).jpg",
+			"images/4 (14).jpg",
+			"images/icon_nav_button.png",
+			"images/3 (1).jpg",
+			"images/4 (15).jpg",
+			"images/icon_nav_article.png",
+			"images/3 (4).jpg",
+			"images/4 (8).jpg",
+			"images/4 (1).jpg",
+			"images/4 (7).jpg",
+			"js/calendar.js",
+			"images/3 (18).jpg",
+			"images/4 (6).jpg",
+			"images/3 (2).jpg",
+			"css/calendar.css",
+			"images/3 (9).jpg",
+			"images/3 (16).jpg",
+			"images/icon_nav_icons.png",
+			"images/4 (9).jpg",
+			"images/4 (12).jpg",
+			"images/3 (14).jpg",
+			"images/3 (12).jpg",
+			"images/3 (3).jpg",
+			"images/4 (10).jpg",
+			"images/4 (3).jpg",
+			"images/3 (13).jpg",
+			"js/lifeHome.js",
+			"images/4 (11).jpg",
+			"images/3 (11).jpg",
+			"images/icon_nav_cell.png",
+			"images/4 (13).jpg",
+			"images/3 (10).jpg"
+		]
+	},
+	"user/meSupplier.html": {
+		"resources": [
+			"indexLifeHome.html"
+		],
+		"refer": [
+			"indexLifeHome.html"
+		]
+	},
+	"user/yellowPages.html": {
+		"resources": [
+			"js/user.js",
+			"indexLifeHome.html"
+		],
+		"refer": [
+			"indexLifeHome.html"
+		]
+	},
+	"commoditDetails.html": {
+		"resources": [
+			"js/commoditDetails.js",
+			"images/3 (18).jpg",
+			"css/commoditDetails.css",
+			"indexLifeHome.html"
+		],
+		"refer": [
+			"indexLifeHome.html"
+		]
+	},
+	"user/user_home_useralter.html": {
+		"resources": [
+			"js/user.js",
+			"user.html"
+		],
+		"refer": [
+			"user.html"
+		]
+	},
+	"user/meApplyOfferCompany.html": {
+		"resources": [
+			"user.html",
+			"indexLifeHome.html"
+		],
+		"refer": [
+			"user.html",
+			"indexLifeHome.html"
+		]
+	},
+	"user/help_center.html": {
+		"resources": [
+			"user.html"
+		],
+		"refer": [
+			"user.html"
+		]
+	}
+}
