@@ -1,54 +1,5 @@
 $(document).ready(function() {
-	var pull1;
-//	模拟从数据集库中已经获取数据
-	var pullbodys=[{icon:"./images/icon_nav_search_bar.png",name:"家具一  实木",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"家具2",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"家具3",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"家具4",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"家具5 橡木",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"实木1",material:"橡木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"橡木2",material:"橡木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"橡木3",material:"橡木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"橡木4",material:"橡木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"橡木5",material:"橡木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"橡木1",material:"橡木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"床",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"床",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"卧室 实木",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"卧室",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"卧室 橡木",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"厨房",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"厨房",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"衣柜",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"衣柜",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"衣柜",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"餐桌",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"餐桌",material:"实木"},
-					
-					{icon:"./images/icon_nav_search_bar.png",name:"餐桌",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"餐桌",material:"实木"},
-					{icon:"./images/icon_nav_search_bar.png",name:"餐桌",material:"实木"}
-					];
-	function renderpullbodys(pullbodys){
-		var html="";
-		var pullbody;
-		for (var i=0;i<pullbodys.length;i++) {
-			pullbody=pullbodys[i];
-			
-			html +=	'<a href="javascript:void(0);" class="weui_media_box weui_media_appmsg">'+
-						'<div class="weui_media_hd">'+
-							'<img class="weui_media_appmsg_thumb" src="'+pullbody.icon+'" alt="">'+
-						'</div>'+
-						'<div class="weui_media_bd">'+
-							'<h4 class="weui_media_title">'+pullbody.name+'</h4>'+
-							'<p class="weui_media_desc">'+pullbody.material+'</p>'+
-						'</div>'
-					'</a>';
-					
-		};
-		document.getElementById("pullbody").innerHTML=html;
-	}
-	renderpullbodys(pullbodys)
+	
 	
 	//顶部赛选点击
 	$("#pull>div").click(function(){

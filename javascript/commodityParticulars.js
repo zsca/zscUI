@@ -81,11 +81,9 @@ $(document).ready(function() {
 	$("#message .bd ul li .left_manufacturers .row a").click(function(){
 		if ($(this).hasClass('icon-49')==true) {
 			
-			$(this).removeClass("icon-49").addClass("icon-48 f-orange")
-		} else{
+			$(this).removeClass("icon-49").html("已收藏").addClass("f-gray");
+		} 
 		
-			$(this).removeClass("icon-48 f-orange").addClass("icon-49")
-		}
 	})
 	//选中按钮颜色改变
 	$(".commodity div button").click(function(){
